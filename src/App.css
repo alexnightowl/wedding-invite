@@ -1,38 +1,179 @@
-.App {
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+html, body {
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+}
+
+.first-page {
+  background-image: url('./img/firstPageBg.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+}
+
+.second-page {
+  background-image: url('./img/secondPageBg.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+}
+
+.letter-wrapper {
+  max-width: 40.625rem;
+  width: 90%;
+  background: rgba(255, 255, 255, 0.9);
+  max-height: 45rem;
+  position: absolute;
+  transition: all 0.3s ease-in-out;
+  left: 6.25rem;
+  top: 50%;
+  transform: translateY(-50%);
+  padding: 3rem;
+  box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.48);
+  box-sizing: border-box;
+  transition: all 0.3s ease-in-out;
+}
+
+.letter-wrapper:hover {
+  transform: translateY(-50%) scale(1.01);
+}
+
+.letter-text {
+  margin-top: 0;
+  font-family: "PT Serif";
+  font-style: italic;
+  font-weight: normal;
+  font-size: 2.1875rem;
+  line-height: 46px;
+  color: rgba(0, 0, 0, 0.48);
+}
+
+.small-text {
+  font-size: 25px;
+}
+
+.timer-wrapper {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  border: 1px solid #ddd;
+}
+
+.timer {
+  font-family: 'Source Code Pro', monospace;
+  /* margin: 0; */
+  width: 100%;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.Cursor {
+  display: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.hidden {
+  opacity: 0;
+  position: absolute;
+  transform: translateY(5rem);
+  transition: all 0.3s ease-in-out;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.showed {
+  position: relative;
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.tooltip {
+  text-align: center;
+  margin-top: 1.5rem;
+  font-size: 1.5rem;
+  margin-bottom: 0;
+}
+
+.info-link {
+  color: #a7c393;
+}
+
+.zoom-link-header {
+  margin: 0;
+  text-align: center;
+  font-size: 1.625rem;
+}
+
+.zoom-link-wrap {
+  width: 100%;
+  margin: 0;
+}
+
+.zoom-link-wrap p{
+  margin: 0;
+}
+
+.zoom-link {
+  /* color: #fff; */
+}
+
+.info-wrapper {
+  width: 90%;
+  max-width: 45rem;
+  background: rgba(255, 255, 255, 0.9);
+  padding: 2rem;
+  box-shadow: 1px 1px 15px #bbb;
+  border-radius: 3px;
+  font-family: 'Open Sans', sans-serif;
+  font-family: "PT Serif";
+}
+
+.missing-id {
+  height: 100vh;
+  width: 100vw;
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  padding: 0 3rem;
 }
 
-.App-link {
-  color: #61dafb;
+.missing-id p {
+  font-size: 1.3125rem;
+  padding: 0.5rem;
+  border: 1px solid #000;
+  margin: 0 auto;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+
+@media (max-width: 576px) {
+  .first-page {
+    background-image: url('./img/firstPageBgMob.png');
   }
-  to {
-    transform: rotate(360deg);
+
+  .letter-wrapper {
+    padding: 1.5rem;
+    left: 50%;
+    transform: translateX(-50%) translateY(-60%);
+  }
+
+  .letter-text {
+    font-size: 2rem;
+    margin-bottom: 0.625rem;
+  }
+
+  .small-text, .tooltip {
+    font-size: 1.375rem;
+    line-height: 1.75rem;
+  }
+
+  .tooltip {
+    font-size: 1rem;
   }
 }

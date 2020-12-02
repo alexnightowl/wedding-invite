@@ -1,0 +1,476 @@
+[
+    {
+        "id": 1,
+        "name": "rawskie",
+        "greeting": "Дорогие Олег и Альбина",
+        "plural": true
+    },
+    {
+        "id": 2,
+        "name": "kolesniky",
+        "greeting": "Дорогие Ваня и Тоня",
+        "plural": true
+    },
+    {
+        "id": 3,
+        "name": "anton",
+        "greeting": "Дорогой Антон",
+        "plural": false
+    },
+    {
+        "id": 4,
+        "name": "demchuk",
+        "greeting": "Дорогая бабушка Вера",
+        "plural": false
+    },
+    {
+        "id": 5,
+        "name": "mojeiko",
+        "greeting": "Дорогие Вова, Инна и Игорь",
+        "plural": true
+    },
+    {
+        "id": 6,
+        "name": "yurchenko",
+        "greeting": "Дорогие Сергей и Марина",
+        "plural": true
+    },
+    {
+        "id": 7,
+        "name": "kucik",
+        "greeting": "Дорогой наш Влад",
+        "plural": false
+    },
+    {
+        "id": 8,
+        "name": "komisarchuk",
+        "greeting": "Дорогой Виктор",
+        "plural": false
+    },
+    {
+        "id": 9,
+        "name": "shevchuk",
+        "greeting": "Дорогие Стёпа и Лиза",
+        "plural": true
+    },
+    {
+        "id": 10,
+        "name": "mihai",
+        "greeting": "Дорогие Миша и Дина",
+        "plural": true
+    },
+    {
+        "id": 11,
+        "name": "skladnik-ar",
+        "greeting": "Дорогой Артем",
+        "plural": false
+    },
+    {
+        "id": 12,
+        "name": "skladnik-al",
+        "greeting": "Дорогой Саша",
+        "plural": false
+    },
+    {
+        "id": 13,
+        "name": "skladnik-nik",
+        "greeting": "Дорогой Никита",
+        "plural": false
+    },
+    {
+        "id": 14,
+        "name": "yovdii",
+        "greeting": "Дорогой Ваня",
+        "plural": false
+    },
+    {
+        "id": 15,
+        "name": "migale",
+        "greeting": "Дорогие Нуцу и Илеана",
+        "plural": true
+    },
+    {
+        "id": 16,
+        "name": "casia",
+        "greeting": "Дорогая Касия",
+        "plural": false
+    },
+    {
+        "id": 17,
+        "name": "evnika",
+        "greeting": "Дорогая Евника",
+        "plural": false
+    },
+    {
+        "id": 18,
+        "name": "loziki",
+        "greeting": "Дорогие Олег и Алина",
+        "plural": true
+    },
+    {
+        "id": 19,
+        "name": "sashalynko",
+        "greeting": "Дорогая Саша",
+        "plural": false
+    },
+    {
+        "id": 20,
+        "name": "dianalynko",
+        "greeting": "Дорогая Диана",
+        "plural": false
+    },
+    {
+        "id": 21,
+        "name": "umbarova",
+        "greeting": "Дорогая Дженет",
+        "plural": false
+    },
+    {
+        "id": 22,
+        "name": "tarasova",
+        "greeting": "Дорогая Аня",
+        "plural": false
+    },
+    {
+        "id": 23,
+        "name": "bogotiny",
+        "greeting": "Дорогие Валера, Леся и Андрюша",
+        "plural": true
+    },
+    {
+        "id": 24,
+        "name": "bogotnastya",
+        "greeting": "Дорогая Настя",
+        "plural": false
+    },
+    {
+        "id": 25,
+        "name": "kraken",
+        "greeting": "Дорогой Саша",
+        "plural": false
+    },
+    {
+        "id": 26,
+        "name": "zahden",
+        "greeting": "Дорогие Денис и Аня",
+        "plural": true
+    },
+    {
+        "id": 27,
+        "name": "chilipepper",
+        "greeting": "Dear Nicolas",
+        "plural": false
+    },
+    {
+        "id": 28,
+        "name": "oksanapov",
+        "greeting": "Дорогая Оксана",
+        "plural": false
+    },
+    {
+        "id": 29,
+        "name": "katiapov",
+        "greeting": "Дорогая Катя",
+        "plural": false
+    },
+    {
+        "id": 30,
+        "name": "levischev",
+        "greeting": "Дорогие Юра, Наташа и Лена",
+        "plural": true
+    },
+    {
+        "id": 31,
+        "name": "daliuk",
+        "greeting": "Дорогая семья Далюк",
+        "plural": true
+    },
+    {
+        "id": 32,
+        "name": "pinzur",
+        "greeting": "Дорогой Андрей",
+        "plural": false
+    },
+    {
+        "id": 33,
+        "name": "kosmach",
+        "greeting": "Дорогие Влад и Надя",
+        "plural": true
+    },
+    {
+        "id": 34,
+        "name": "bogandreev",
+        "greeting": "Дорогой Богдан",
+        "plural": false
+    },
+    {
+        "id": 35,
+        "name": "chornie",
+        "greeting": "Дорогие Саша и Света",
+        "plural": true
+    },
+    {
+        "id": 36,
+        "name": "lizogubenko",
+        "greeting": "Дорогие Витя и Юля",
+        "plural": true
+    },
+    {
+        "id": 37,
+        "name": "radmila",
+        "greeting": "Дорогая Радмила",
+        "plural": false
+    },
+    {
+        "id": 38,
+        "name": "bigdai",
+        "greeting": "Дорогая семья Бигдай",
+        "plural": true
+    },
+    {
+        "id": 39,
+        "name": "pashabgd",
+        "greeting": "Дорогие Паша и София",
+        "plural": true
+    },
+    {
+        "id": 40,
+        "name": "kirichenko",
+        "greeting": "Дорогие Влад и Алёна",
+        "plural": true
+    },
+    {
+        "id": 41,
+        "name": "energodarianec",
+        "greeting": "Дорогой Артем",
+        "plural": false
+    },
+    {
+        "id": 42,
+        "name": "vovborya",
+        "greeting": "Дорогой Вова",
+        "plural": false
+    },
+    {
+        "id": 43,
+        "name": "jekash",
+        "greeting": "Дорогой Женя",
+        "plural": false
+    },
+    {
+        "id": 44,
+        "name": "ankutsa-lera",
+        "greeting": "Дорогая Лера",
+        "plural": false
+    },
+    {
+        "id": 45,
+        "name": "zborovskiy",
+        "greeting": "Дорогой Богдан",
+        "plural": false
+    },
+    {
+        "id": 46,
+        "name": "kuzhelov",
+        "greeting": "Дорогой Саша",
+        "plural": false
+    },
+    {
+        "id": 47,
+        "name": "darius",
+        "greeting": "Дорогая Даша",
+        "plural": false
+    },
+    {
+        "id": 48,
+        "name": "bezruchko",
+        "greeting": "Дорогой Илья",
+        "plural": false
+    },
+    {
+        "id": 49,
+        "name": "homa",
+        "greeting": "Дорогие Настя и Сергей",
+        "plural": true
+    },
+    {
+        "id": 50,
+        "name": "jenni",
+        "greeting": "Дорогая Жана",
+        "plural": false
+    },
+    {
+        "id": 51,
+        "name": "khurman",
+        "greeting": "Дорогой Дима",
+        "plural": false
+    },
+    {
+        "id": 52,
+        "name": "luchs",
+        "greeting": "Дорогой Влад",
+        "plural": false
+    },
+    {
+        "id": 53,
+        "name": "kornienko",
+        "greeting": "Дорогие Вадим и Настя",
+        "plural": true
+    },
+    {
+        "id": 54,
+        "name": "vladmaxi",
+        "greeting": "Дорогие Влад и Макс",
+        "plural": true
+    },
+    {
+        "id": 55,
+        "name": "ivan-kuzh",
+        "greeting": "Дорогие Ваня и Аня",
+        "plural": true
+    },
+    {
+        "id": 56,
+        "name": "alejakr",
+        "greeting": "Дорогие Олег и Оля",
+        "plural": true
+    },
+    {
+        "id": 57,
+        "name": "ksyu",
+        "greeting": "Дорогая Оксана",
+        "plural": false
+    },
+    {
+        "id": 58,
+        "name": "margo-mark",
+        "greeting": "Дорогие Марк и Маргарита",
+        "plural": true
+    },
+    {
+        "id": 59,
+        "name": "pasha-natasha",
+        "greeting": "Дорогие Паша и Наташа",
+        "plural": true
+    },
+    {
+        "id": 60,
+        "name": "wolnitskiy",
+        "greeting": "Дорогой Дима",
+        "plural": false
+    },
+    {
+        "id": 61,
+        "name": "bazarko",
+        "greeting": "Дорогие Назар и Жанна",
+        "plural": true
+    },
+    {
+        "id": 62,
+        "name": "liza-beth",
+        "greeting": "Дорогая Лиза",
+        "plural": false
+    },
+    {
+        "id": 63,
+        "name": "marian",
+        "greeting": "Дорогая Марианна",
+        "plural": false
+    },
+    {
+        "id": 64,
+        "name": "duymovochka",
+        "greeting": "Дорогая Яна",
+        "plural": false
+    },
+    {
+        "id": 65,
+        "name": "zvoleiko",
+        "greeting": "Дорогие Лиля и Вереника",
+        "plural": true
+    },
+    {
+        "id": 66,
+        "name": "ivaneu",
+        "greeting": "Дорогой Ваня",
+        "plural": false
+    },
+    {
+        "id": 67,
+        "name": "gladkiy",
+        "greeting": "Дорогие Серёжа и Оля",
+        "plural": true
+    },
+    {
+        "id": 68,
+        "name": "oksana-mal",
+        "greeting": "Дорогая Оксана",
+        "plural": false
+    },
+    {
+        "id": 69,
+        "name": "melnuk",
+        "greeting": "Дорогие Серёжа и Оксана",
+        "plural": true
+    },
+    {
+        "id": 70,
+        "name": "voznui",
+        "greeting": "Дорогой Рома",
+        "plural": false
+    },
+    {
+        "id": 71,
+        "name": "zigi",
+        "greeting": "Дорогой Зигмунд",
+        "plural": false
+    },
+    {
+        "id": 72,
+        "name": "naumenko",
+        "greeting": "Дорогие Игорь и Оля",
+        "plural": true
+    },
+    {
+        "id": 73,
+        "name": "maluschuk",
+        "greeting": "Дорогая Катя",
+        "plural": false
+    },
+    {
+        "id": 74,
+        "name": "semilet",
+        "greeting": "Дорогие Олег и Оля",
+        "plural": true
+    },
+    {
+        "id": 75,
+        "name": "sonyi",
+        "greeting": "Дорогие Золтон и Адрианна",
+        "plural": true
+    },
+    {
+        "id": 76,
+        "name": "malkinu",
+        "greeting": "Дорогие Миша и Оля",
+        "plural": true
+    },
+    {
+        "id": 77,
+        "name": "alb",
+        "greeting": "Дорогие Нику и Изабелла",
+        "plural": true
+    },
+    {
+        "id": 78,
+        "name": "olaru",
+        "greeting": "Дорогие Вася и Даниелла",
+        "plural": true
+    },
+    {
+        "id": 79,
+        "name": "marina",
+        "greeting": "Дорогие Ваня и Аня",
+        "plural": true
+    }
+]
