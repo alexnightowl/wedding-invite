@@ -5,13 +5,11 @@ import Typist from "react-typist";
 import { useParams } from "react-router";
 
 const guestList = require("../mock/guestList.json");
-console.log(guestList);
-
 const Letter = () => {
   const [visibility, setVisibility] = useState(false);
   let { name } = useParams();
   let guestObj = guestList.find((obj) => obj.name === name);
-  console.log("guestObj", guestObj);
+  let splitString = guestObj.female ? 'разделила' : 'разделил';
   if (guestObj) {
     return (
       <div className="first-page">
@@ -24,9 +22,7 @@ const Letter = () => {
             <h2 className="letter-text">{guestObj.greeting}</h2>
             <Typist.Delay ms={1000} />
             <p className="letter-text small-text">
-              {guestObj.plural
-                ? "Мы хотим чтобы вы разделили "
-                : "Мы хотим чтобы ты разделил "}
+              {guestObj.plural ? `Мы хотим чтобы вы разделили` : `Мы хотим чтобы ты ${splitString} `}
               с нами один из самых важных дней в нашей жизни и поэтому
               приглашаем {guestObj.plural ? "вас" : "тебя"} на церемонию нашего
               бракосочитания, а также на христианскую речь в честь нашей
