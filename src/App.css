@@ -51,6 +51,7 @@ html, body {
 
 .letter-wrapper h2 {
   margin-bottom: 0.625rem;
+  font-weight: bold;
 }
 
 .letter-text {
@@ -162,6 +163,7 @@ html, body {
 
 .text-right {
   text-align: right;
+  font-weight: bold;
 }
 
 .countdown-text {
