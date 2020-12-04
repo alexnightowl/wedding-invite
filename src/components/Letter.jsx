@@ -22,7 +22,7 @@ const Letter = () => {
             <h2 className="letter-text">{guestObj.greeting}</h2>
             <Typist.Delay ms={1000} />
             <p className="letter-text small-text">
-              {guestObj.plural ? `Мы хотим чтобы вы разделили` : `Мы хотим чтобы ты ${splitString} `}
+              {guestObj.plural ? `Мы хотим чтобы вы разделили ` : `Мы хотим чтобы ты ${splitString} `}
               с нами один из самых важных дней в нашей жизни и поэтому
               счастливы пригласить {guestObj.plural ? "вас" : "тебя"} на христианскую речь в честь нашего
               бракосочетания. Она состоится 12-го декабря в 14:00.
