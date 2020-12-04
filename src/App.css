@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital@1&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
-
 html, body {
   height: 100vh;
   width: 100vw;
@@ -15,6 +14,9 @@ html, body {
   height: 100vh;
   width: 100vw;
   overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
 }
 
 .second-page {
@@ -23,7 +25,7 @@ html, body {
   background-size: cover;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
   height: 100vh;
   width: 100vw;
   overflow: hidden;
@@ -34,19 +36,17 @@ html, body {
   width: 90%;
   background: rgba(255, 255, 255, 0.9);
   max-height: 45rem;
-  position: absolute;
   transition: all 0.3s ease-in-out;
-  left: 6.25rem;
-  top: 50%;
-  transform: translateY(-50%);
+  margin-left: 6.25rem;
   padding: 3rem;
   box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.48);
   box-sizing: border-box;
   transition: all 0.3s ease-in-out;
+  overflow-y: scroll;
 }
 
 .letter-wrapper:hover {
-  transform: translateY(-50%) scale(1.01);
+  transform: scale(1.01);
 }
 
 .letter-text {
@@ -72,7 +72,6 @@ html, body {
 
 .timer {
   font-family: 'Source Code Pro', monospace;
-  /* margin: 0; */
   width: 100%;
   text-align: center;
 }
@@ -116,23 +115,21 @@ html, body {
   margin: 0;
 }
 
-.zoom-link-wrap p{
+.zoom-link-wrap p {
   margin: 0;
-}
-
-.zoom-link {
-  /* color: #fff; */
 }
 
 .info-wrapper {
   width: 90%;
   max-width: 45rem;
-  background: rgba(255, 255, 255, 0.9);
+  background: rgba(255, 255, 255, 0.6);
+  color: rgba(0,0,0,0.7);
   padding: 2rem;
   box-shadow: 1px 1px 15px #bbb;
   border-radius: 3px;
   font-family: 'Open Sans', sans-serif;
   font-family: "PT Serif";
+  overflow-y: scroll;
 }
 
 .missing-id {
@@ -151,29 +148,38 @@ html, body {
   margin: 0 auto;
 }
 
-
 @media (max-width: 576px) {
   .first-page {
     background-image: url('./img/firstPageBgMob.png');
   }
-
+  .second-page {
+    background-image: url('./img/secondPageBgMob.png');
+  }
   .letter-wrapper {
     padding: 1.5rem;
+    margin-left: 1rem;
     left: 50%;
-    transform: translateX(-50%) translateY(-60%);
+    margin-left: 0;
   }
-
   .letter-text {
-    font-size: 2rem;
+    font-size: 1.375rem;
     margin-bottom: 0.625rem;
   }
-
   .small-text, .tooltip {
-    font-size: 1.375rem;
+    font-size: 1rem;
     line-height: 1.75rem;
   }
-
+  .first-page {
+    padding-top: 2rem;
+    align-items: flex-start;
+    justify-content: center;
+  }
   .tooltip {
     font-size: 1rem;
+  }
+  .second-page {
+    justify-content: center;
+    align-items: flex-start;
+    padding: 2rem 0;
   }
 }
