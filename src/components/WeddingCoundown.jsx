@@ -34,7 +34,7 @@ const WeddingCoundown = () => {
     }
 
     timerComponents.push(
-      <span>
+      <span key={timeLeft[interval]}>
         {timeLeft[interval]} {interval}{" "}
       </span>
     );
