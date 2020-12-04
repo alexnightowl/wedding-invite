@@ -10,7 +10,7 @@ const Letter = () => {
   let { name } = useParams();
   let guestObj = guestList.find((obj) => obj.name === name);
   let splitString = guestObj.female ? 'разделила' : 'разделил';
-  if (guestObj) {
+  if (!!guestObj) {
     return (
       <div className="first-page">
         <div className="letter-wrapper">
