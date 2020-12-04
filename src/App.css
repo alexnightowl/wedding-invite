@@ -42,11 +42,15 @@ html, body {
   box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.48);
   box-sizing: border-box;
   transition: all 0.3s ease-in-out;
-  overflow-y: scroll;
 }
 
 .letter-wrapper:hover {
   transform: scale(1.01);
+}
+
+
+.letter-wrapper h2 {
+  margin-bottom: 0.625rem;
 }
 
 .letter-text {
@@ -57,10 +61,17 @@ html, body {
   font-size: 2.1875rem;
   line-height: 46px;
   color: rgba(0, 0, 0, 0.48);
+  margin-bottom: 10px;
 }
 
 .small-text {
   font-size: 25px;
+  line-height: 35px;
+  transition: all 0.3s ease-in-out;
+}
+
+.text-left {
+  text-align: left;
 }
 
 .timer-wrapper {
@@ -148,6 +159,14 @@ html, body {
   margin: 0 auto;
 }
 
+.text-right {
+  text-align: right;
+}
+
+.countdown-text {
+  font-size: 1.3rem;
+}
+
 @media (max-width: 576px) {
   .first-page {
     background-image: url('./img/firstPageBgMob.png');
@@ -160,6 +179,7 @@ html, body {
     margin-left: 1rem;
     left: 50%;
     margin-left: 0;
+    overflow-y: scroll;
   }
   .letter-text {
     font-size: 1.375rem;
