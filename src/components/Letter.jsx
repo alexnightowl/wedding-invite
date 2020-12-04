@@ -24,12 +24,12 @@ const Letter = () => {
             <p className="letter-text small-text">
               {guestObj.plural ? `Мы хотим чтобы вы разделили` : `Мы хотим чтобы ты ${splitString} `}
               с нами один из самых важных дней в нашей жизни и поэтому
-              счастливы {guestObj.plural ? "вас" : "тебя"} на христианскую речь в честь нашего
+              счастливы пригласить {guestObj.plural ? "вас" : "тебя"} на христианскую речь в честь нашего
               бракосочитания. Она состоится 12-го декабря в 14:00.
             </p>
             <p className="letter-text small-text text-right">Ваши Алексей и Лолита:)</p>
           </Typist>
-          <hr/><br/>
+          <hr/>
           <div className={`hidden ${visibility ? "showed" : ""}`}>
             <p className="letter-text small-text countdown-text">Ссылка на конференцию появится ниже через:</p>
             <WeddingCoundown />
