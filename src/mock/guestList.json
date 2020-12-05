@@ -8,7 +8,7 @@
     },
     {
         "id": 2,
-        "name": "alb ",
+        "name": "alb",
         "greeting": "Дорогие Нику и Изабелла",
         "plural": true,
         "female": false
@@ -113,7 +113,7 @@
     },
     {
         "id": 17,
-        "name": "bazarko ",
+        "name": "bazarko",
         "greeting": "Дорогие Назар и Жанна",
         "plural": true,
         "female": false
@@ -337,7 +337,7 @@
     },
     {
         "id": 49,
-        "name": "gladkiy ",
+        "name": "gladkiy",
         "greeting": "Дорогие Серёжа и Оля",
         "plural": true,
         "female": false
@@ -547,7 +547,7 @@
     },
     {
         "id": 79,
-        "name": "kornienko ",
+        "name": "kornienko",
         "greeting": "Дорогие Вадим и Настя",
         "plural": true,
         "female": false
@@ -709,7 +709,7 @@
     {
         "id": 102,
         "name": "malkin",
-        "greeting": "Дорогие Миша и Оля ",
+        "greeting": "Дорогие Миша и Оля",
         "plural": true,
         "female": false
     },
@@ -750,7 +750,7 @@
     },
     {
         "id": 108,
-        "name": "marina ",
+        "name": "marina",
         "greeting": "Дорогие Ваня и Аня",
         "plural": true,
         "female": false
@@ -758,13 +758,13 @@
     {
         "id": 109,
         "name": "medianik",
-        "greeting": "Дорогая Катя ",
+        "greeting": "Дорогая Катя",
         "plural": false,
         "female": true
     },
     {
         "id": 110,
-        "name": "melnuk ",
+        "name": "melnuk",
         "greeting": "Дорогие Серёжа и Оксана",
         "plural": true,
         "female": false
@@ -834,7 +834,7 @@
     },
     {
         "id": 120,
-        "name": "naumenko ",
+        "name": "naumenko",
         "greeting": "Дорогие Игорь и Оля",
         "plural": true,
         "female": false
@@ -912,7 +912,7 @@
     {
         "id": 131,
         "name": "parshyna",
-        "greeting": "Дорогая Таня ",
+        "greeting": "Дорогая Таня",
         "plural": false,
         "female": true
     },
@@ -947,7 +947,7 @@
     {
         "id": 136,
         "name": "pios",
-        "greeting": "Дорогая Надя ",
+        "greeting": "Дорогая Надя",
         "plural": false,
         "female": true
     },
@@ -1100,7 +1100,7 @@
     },
     {
         "id": 158,
-        "name": "sonyi ",
+        "name": "sonyi",
         "greeting": "Дорогие Золтон и Адрианна",
         "plural": true,
         "female": false
@@ -1240,7 +1240,7 @@
     },
     {
         "id": 178,
-        "name": "voznui ",
+        "name": "voznui",
         "greeting": "Дорогой Рома",
         "plural": false,
         "female": false
@@ -1290,13 +1290,13 @@
     {
         "id": 185,
         "name": "zenich",
-        "greeting": "Дорогая Вероника ",
+        "greeting": "Дорогая Вероника",
         "plural": false,
         "female": true
     },
     {
         "id": 186,
-        "name": "zigi ",
+        "name": "zigi",
         "greeting": "Дорогой Зигмунд",
         "plural": false,
         "female": false
@@ -1310,7 +1310,7 @@
     },
     {
         "id": 188,
-        "name": "zvoleiko ",
+        "name": "zvoleiko",
         "greeting": "Дорогие Лиля и Вероника",
         "plural": true,
         "female": false
