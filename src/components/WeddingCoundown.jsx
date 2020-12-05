@@ -11,7 +11,7 @@ const WeddingCoundown = () => {
         дн: Math.floor(difference / (1000 * 60 * 60 * 24)),
         час: Math.floor((difference / (1000 * 60 * 60)) % 24),
         мин: Math.floor((difference / 1000 / 60) % 60),
-        сек: Math.floor((difference / 1000) % 60),
+        сек: Math.floor((difference / 1000) % 60)
       };
     }
 
