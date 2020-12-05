@@ -30,10 +30,10 @@ const Letter = () => {
               в честь нашего бракосочетания. Она прозвучит 12-го декабря в
               14:00.
             </p>
-            <p className="letter-text small-text text-right">
-              Ваши Алексей и Лолита:)
-            </p>
           </Typist>
+          <p className={`letter-text small-text text-right hidden ${visibility ? "showed" : ""}`}>
+              Ваши Алексей и Лолита:)
+          </p>
           <hr />
           <div className={`hidden ${visibility ? "showed" : ""}`}>
             <p className="letter-text small-text countdown-text">
