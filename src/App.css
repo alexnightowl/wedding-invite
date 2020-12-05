@@ -147,19 +147,25 @@ html, body {
   overflow-y: scroll;
 }
 
+@media (min-width: 576px) {
+  .info-wrapper::-webkit-scrollbar {
+    display: none;
+  }
+}
+
 .missing-id {
   height: 100vh;
-  width: 100vw;
+  width: 90vw;
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 0 3rem;
+  margin: 0 auto;
 }
 
 .missing-id p {
-  font-size: 1.3125rem;
+  font-size: 1rem;
   padding: 0.5rem;
-  border: 1px solid #000;
+  border: 1px solid #ddd;
   margin: 0 auto;
 }
 
