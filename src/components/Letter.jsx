@@ -42,7 +42,7 @@ const Letter = () => {
             <WeddingCoundown />
             <p className="letter-text tooltip">
               Больше информации{" "}
-              {guestObj.plural ? "вы найдете " : "ты найдешь "}
+              {guestObj.plural ? "ищите " : "ищи "}
               <Link className="info-link" to="/info">
                 здесь
               </Link>
