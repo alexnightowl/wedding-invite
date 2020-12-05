@@ -137,6 +137,7 @@ a {
 .info-wrapper {
   width: 90%;
   max-width: 45rem;
+  max-height: 85vh;
   background: rgba(255, 255, 255, 0.6);
   color: rgba(0,0,0,0.7);
   padding: 2rem;
@@ -147,7 +148,7 @@ a {
   overflow-y: scroll;
 }
 
-@media (min-width: 576px) {
+@media (min-width: 770px) {
   .info-wrapper::-webkit-scrollbar {
     display: none;
   }
