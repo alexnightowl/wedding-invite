@@ -3,7 +3,8 @@ import ZoomButton from "./ZoomButton";
 
 const WeddingCoundown = () => {
   const calculateTimeLeft = () => {
-    const difference = +new Date(`13:30 2020-12-12`) - +new Date();
+    var dateString = "2020-12-12 13:30:00";
+    const difference = +new Date(dateString.replace(' ', 'T')) - +new Date();
     let timeLeft = {};
 
     if (difference > 0) {
