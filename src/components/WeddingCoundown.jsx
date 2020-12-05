@@ -28,13 +28,17 @@ const WeddingCoundown = () => {
 
   const timerComponents = [];
 
+  const generateKey = (pre) => {
+    return `${ pre }_${ new Date().getTime() }`;
+}
+
   Object.keys(timeLeft).forEach((interval) => {
     if (!timeLeft[interval]) {
       return;
     }
 
     timerComponents.push(
-      <span key={interval}>
+      <span key={generateKey(interval)}>
         {timeLeft[interval]} {interval}{" "}
       </span>
     );
