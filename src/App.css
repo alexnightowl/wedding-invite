@@ -178,7 +178,7 @@ html, body {
   font-size: 1.3rem;
 }
 
-@media (max-width: 576px) {
+@media (max-width: 770px) {
   .first-page {
     background-image: url('./img/firstPageBgMob.png');
   }
