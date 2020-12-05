@@ -35,7 +35,7 @@ html, body {
   max-width: 40.625rem;
   width: 90%;
   background: rgba(255, 255, 255, 0.9);
-  max-height: 45rem;
+  max-height: 70vh;
   transition: all 0.3s ease-in-out;
   margin-left: 6.25rem;
   padding: 3rem;
@@ -115,7 +115,7 @@ html, body {
   margin-top: 1rem;
 }
 
-.info-link {
+a {
   color: #a7c393;
 }
 
@@ -181,6 +181,7 @@ html, body {
 @media (max-width: 770px) {
   .first-page {
     background-image: url('./img/firstPageBgMob.png');
+    background-position: center;
   }
   .second-page {
     background-image: url('./img/secondPageBgMob.png');
