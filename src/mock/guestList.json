@@ -1433,5 +1433,12 @@
         "greeting": "Дорогие Лиля и Вероника",
         "plural": true,
         "female": false
+    },
+    {
+        "id": 206,
+        "name": "irakolesn",
+        "greeting": "Дорогая Ира",
+        "plural": true,
+        "female": false
     }
 ]
