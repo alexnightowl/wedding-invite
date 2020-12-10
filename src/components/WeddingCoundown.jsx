@@ -6,7 +6,7 @@ const WeddingCoundown = () => {
     var dateString = "2020-12-12 11:30:00";
     let date = new Date();
     let weddingDate = new Date(Date.UTC(2020, 11, 12, 11, 30, 0, 0))
-    let currentDateUTC = new Date(date.getUTCFullYear(), date.getUTCMonth(), date.getUTCDate(),  date.getUTCHours(), date.getUTCMinutes(), date.getUTCSeconds());
+    let currentDateUTC = new Date()
     const difference = weddingDate - currentDateUTC;
 
     let timeLeft = {};
