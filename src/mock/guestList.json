@@ -1440,5 +1440,19 @@
         "greeting": "Дорогая Ира",
         "plural": true,
         "female": false
+    },
+    {
+        "id": 207,
+        "name": "batanin",
+        "greeting": "Дорогие Виктор и Алина",
+        "plural": true,
+        "female": false
+    },
+    {
+        "id": 208,
+        "name": "batalin",
+        "greeting": "Дорогие Василий и Любовь",
+        "plural": true,
+        "female": false
     }
 ]
